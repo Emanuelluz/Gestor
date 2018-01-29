@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane layoutX="1.0" layoutY="-1.0" prefHeight="563.0" prefWidth="784.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Cadastro de preso">
+            <content>
+              <AnchorPane fx:id="paneCadastroPreso" minHeight="0.0" minWidth="0.0" prefHeight="555.0" prefWidth="784.0" style="-fx-background-color: #4ff4ff;">
+                     <children>
+                        <Label layoutX="23.0" layoutY="55.0" text="Nome" />
+                        <Label layoutX="22.0" layoutY="31.0" text="Prontuario" />
+                        <Label layoutX="21.0" layoutY="82.0" text="Data nascimento" />
+                        <Label layoutX="20.0" layoutY="106.0" text="Endereço" />
+                        <JFXTextField fx:id="txtPront" layoutX="158.0" layoutY="16.0" />
+                        <JFXTextField fx:id="txtNome" layoutX="159.0" layoutY="44.0" />
+                        <JFXTextField fx:id="txtNasc" layoutX="159.0" layoutY="68.0" />
+                        <JFXTextField fx:id="txtEndereco" layoutX="159.0" layoutY="94.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Canteiro" />
+        </tabs>
+      </TabPane>
+      <AnchorPane layoutX="3.0" layoutY="375.0" minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="600.0" />
+   </children>
+</AnchorPane>
